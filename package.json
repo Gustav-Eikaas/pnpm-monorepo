@@ -1,0 +1,16 @@
+{
+	"name": "workspace",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"build": "pnpm -r build",
+		"test": "pnpm -r test"
+	},
+	"private": true,
+	"workspaces": [
+		"packages/**"
+	],
+	"devDependencies": {
+		"vitest": "^0.29.2"
+	}
+}

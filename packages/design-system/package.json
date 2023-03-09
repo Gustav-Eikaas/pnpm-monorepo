@@ -1,0 +1,25 @@
+{
+	"name": "@monorepo/design-system",
+	"version": "0.0.1",
+	"type": "module",
+	"private": false,
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc -b",
+		"test": "vitest --run"
+	},
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"peerDependencies": {
+		"react": ">= 16.8.0",
+		"react-dom": ">= 16.8.0"
+	},
+	"devDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
