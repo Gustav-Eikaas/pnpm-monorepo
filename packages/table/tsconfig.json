@@ -16,6 +16,6 @@
 		"resolveJsonModule": true
 	},
 	"files": [],
-	"include": [],
+	"include": ["src"],
 	"references": []
 }
